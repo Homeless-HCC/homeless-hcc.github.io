@@ -18,7 +18,7 @@ ORG_NAME = "Homeless"
 ORG_DBA = "Organization DBA"
 ORG_URL = "https://homeless-hcc.github.io"
 # Upload your logo to /assets/homeless-logo.png in the repo and use that URL
-ORG_LOGO = "https://homeless-hcc.github.io/1homelesscoin-logo.png"
+ORG_LOGO = "https://homeless-hcc.github.io/assets/1homelesscoin-logo.png"
 ORG_PHYSICAL_ADDRESS = "Prattville, Alabama 36066, USA"
 # If you don't have an attestation, leave empty string
 ORG_PHYSICAL_ADDRESS_ATTESTATION = ""
@@ -44,9 +44,6 @@ blankets, shelter, food, protection, a moment of peace in a life that hasn’t h
 name = "Jason Matthew Cook"
 email = "homelesscoin2025@gmail.com"
 keybase = ""
-facebook = "Jason Cook_Homeless Community Care"
-snapchat = "j-sun33"
-pinterest = "Homeless Community Care-coin HCC"
 github = "github.com/Homeless-HCC/homeless-hcc.github.io"
 id_photo_hash = ""
 verification_photo_hash = ""
@@ -57,7 +54,7 @@ verification_photo_hash = ""
 code = "Homeless"
 issuer = "GDKSAFCZI3U4SIZAFGY2QWTOC7DFZJGDGSBC6VLSPFYLOII24W6KFUNS"
 is_asset_anchored = false
-anchor_asset_type = ""
+anchor_asset_type = "crypto"
 is_unlimited = false
 status = "live"
 display_decimals = 7
@@ -71,5 +68,5 @@ There will only ever be 333000000000 HCC in existence.
 HCC is not backed by a physical asset or precious metal.
 HCC value is based on the trust provided by the community that supports the cause.
 """
-image = "https://homeless-hcc.github.io/1homelesscoin-logo.png"
+image = "https://homeless-hcc.github.io/assets/1homelesscoin-logo.png"
 fixed_number = 333000000000
