@@ -18,7 +18,7 @@ ORG_NAME = "Homeless"
 ORG_DBA = "Organization DBA"
 ORG_URL = "https://homeless-hcc.github.io"
 # Upload your logo to /assets/homeless-logo.png in the repo and use that URL
-ORG_LOGO = "https://homeless-hcc.github.io/assets/1homelesscoin-logo.png"
+ORG_LOGO = "https://homeless-hcc.github.io/1homelesscoin-logo.png"
 ORG_PHYSICAL_ADDRESS = "Prattville, Alabama 36066, USA"
 # If you don't have an attestation, leave empty string
 ORG_PHYSICAL_ADDRESS_ATTESTATION = ""
@@ -71,5 +71,5 @@ There will only ever be 333000000000 HCC in existence.
 HCC is not backed by a physical asset or precious metal.
 HCC value is based on the trust provided by the community that supports the cause.
 """
-image = "https://homeless-hcc.github.io/assets/1homelesscoin-logo.png"
+image = "https://homeless-hcc.github.io/1homelesscoin-logo.png"
 fixed_number = 333000000000
