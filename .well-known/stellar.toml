@@ -1,87 +1,75 @@
 # Minimal stellar.toml for the Homeless token
 
-NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+# Minimal / corrected stellar.toml for Homeless token
+VERSION = "2.0.0"
 
-SIGNING_KEY="GDKSAFCZI3U4SIZAFGY2QWTOC7DFZJGDGSBC6VLSPFYLOII24W6KFUNS"
-	        
-HORIZON_URL="https://horizon.stellar.org/accounts/GDKSAFCZI3U4SIZAFGY2QWTOC7DFZJGDGSBC6VLSPFYLOII24W6KFUNS"
-ACCOUNTS=[
-"Issuer_Key=GDKSAFCZI3U4SIZAFGY2QWTOC7DFZJGDGSBC6VLSPFYLOII24W6KFUNS",
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+SIGNING_KEY = "GDKSAFCZI3U4SIZAFGY2QWTOC7DFZJGDGSBC6VLSPFYLOII24W6KFUNS"
+HORIZON_URL = "https://horizon.stellar.org"
 
-"Distribution_Key= GBQB7S3MUAAMWXXTJVN44XIG3CJHTTBM7UH6IKPVPG5OH2NUOJJ3P4RU"
+# List related accounts (issuer, distribution)
+ACCOUNTS = [
+  "GDKSAFCZI3U4SIZAFGY2QWTOC7DFZJGDGSBC6VLSPFYLOII24W6KFUNS",
+  "GBQB7S3MUAAMWXXTJVN44XIG3CJHTTBM7UH6IKPVPG5OH2NUOJJ3P4RU"
 ]
 
-VERSION="2.0.0"
-
 [DOCUMENTATION]
-ORG_NAME="Homeless"
-ORG_DBA="Organization DBA"
-ORG_URL="https://homeless.hcc.github.io"
-ORG_LOGO="https://www.github.io/#1homelesscoin.logo.png"
-ORG_PHYSICAL_ADDRESS="Prattville,_Alabama_36066_America"
-ORG_PHYSICAL_ADDRESS_ATTESTATION=
-ORG_OFFICIAL_EMAIL="homelesscoin2025@gmail.com"
-ORG_PHONE_NUMBER="1_298_263_4786"
-ORG_PHONE_NUMBER_ATTESTATION="https://www.domain.com/phone_attestation.jpg"
-ORG_GITHUB="Github.com/Homeless.HCC/homeless.hcc.github.io"
-ORG_KEYBASE=""
-ORG_TWITTER="orgtweet"
-ORG_DESCRIPTION="supporting homeless initiatives and community outreach programs. Homeless Coin was born from a simple, painful reality: 
-               too many people fall through the cracks, and the world moves on like nothing happened. 
-					This coin exists to make sure those people are never ignored again.	Every Homeless Coin carries the weight of someone’s cold night,
-				someone’s empty stomach, someone’s quiet prayer that tomorrow might	hurt less than today. It carries the story of the veteran sleeping under a bridge,
-				the single parent holding a child close to stay warm, the teenager pretending they’re “just out walking” because admitting they have no place to go is too heavy to say out loud.
-				This token fights for them.	Homeless Coin is a promise. A promise that someone out there still cares. That someone sees them. That someone believes they deserve more than 
-				survival. It turns compassion into fuel, and fuel into real help: blankets, shelter, food, protection, a moment of peace in a life that hasn’t
-				had any in too long.	When you hold Homeless Coin, you’re carrying the stories of people who never had anyone carry anything for them. You’re giving hope to 
-				someone who hasn’t felt hopeful in years. You’re part of the moment when a stranger goes from invisible, to seen.
-				And maybe… just maybe… you help someone believe that life can start over.  "
+ORG_NAME = "Homeless"
+ORG_DBA = "Organization DBA"
+ORG_URL = "https://homeless-hcc.github.io"
+# Upload your logo to /assets/homeless-logo.png in the repo and use that URL
+ORG_LOGO = "https://homeless-hcc.github.io/assets/#homelesscoin.logo.png"
+ORG_PHYSICAL_ADDRESS = "Prattville, Alabama 36066, USA"
+# If you don't have an attestation, leave empty string
+ORG_PHYSICAL_ADDRESS_ATTESTATION = ""
+ORG_OFFICIAL_EMAIL = "homelesscoin2025@gmail.com"
+ORG_SUPPORT_EMAIL = "homelesscoin2025@gmail.com"
+ORG_PHONE_NUMBER = "+1-298-263-4786"
+ORG_GITHUB = "https://github.com/homeless-hcc/homeless-hcc.github.io"
+ORG_KEYBASE = ""
+ORG_TWITTER = "orgtweet"
 
-
+# Long description: use triple-quoted string
+ORG_DESCRIPTION = """
+Supporting homeless initiatives and community outreach programs.
+Homeless Coin was born from a simple, painful reality: too many people fall through the cracks, and the world moves on like nothing happened.
+This coin exists to make sure those people are never ignored again. Every Homeless Coin carries the weight of someone’s cold night,
+someone’s empty stomach, someone’s quiet prayer that tomorrow might hurt less than today. It carries the story of the veteran sleeping under a bridge,
+the single parent holding a child close to stay warm, the teenager pretending they’re “just out walking” because admitting they have no place to go is too heavy to say out loud.
+This token fights for them. Homeless Coin is a promise that someone out there still cares. It turns compassion into fuel, and fuel into real help:
+blankets, shelter, food, protection, a moment of peace in a life that hasn’t had any in too long.
+"""
 
 [[PRINCIPALS]]
-name="Jason Matthew Cook"
-email="homelesscoin2025@gmail.com"
-keybase=""
-twitter=""
-github="HomelessCEO"
-id_photo_hash=""
-verification_photo_hash=""
+name = "Jason Matthew Cook"
+email = "homelesscoin2025@gmail.com"
+keybase = ""
+facebook = "Jason Cook_Homeless Community Care"
+snapchat = "j-sun33"
+pinterest = "Homeless Community Care-coin HCC"
+github = "Homeless-HCC"
+id_photo_hash = ""
+verification_photo_hash = ""
 
-
-# asset with meta info
+# Asset metadata
 [[CURRENCIES]]
-code="Homeless"
-issuer="GDKSAFCZI3U4SIZAFGY2QWTOC7DFZJGDGSBC6VLSPFYLOII24W6KFUNS"
-is_asset_anchored = "false"
-anchor_asset_type = "native"
-is_unlimited = "false"
+# Consider using a short ticker like "HCC" for the code; I left "Homeless" as you provided
+code = "Homeless"
+issuer = "GDKSAFCZI3U4SIZAFGY2QWTOC7DFZJGDGSBC6VLSPFYLOII24W6KFUNS"
+is_asset_anchored = false
+anchor_asset_type = ""
+is_unlimited = false
 status = "live"
-display_decimals="7"
-name="Homeless"
-desc="Homeless the 2-4-1 Coin" 
-desc="Homeless Coin isn’t about crypto. It’s about humanity. And humanity is worth everything.
-          	 Supporting homeless initiatives and community outreach programs.
-		 Homeless is NOT like these other guys asking for donations and only giving 10% or 10 cents of $1.00 and keep 90% or $0.90  out of $1.00for themselves. 
-		Its the exact oppisite for us because we want you to know and see that 90% of your Hard erand money goes directly to help actually make a change in town's 
-		and cities just like yours. Homeless will establish a Headquarters for all base operations as well as purchas of Mobile
-		food trucks that will not just serve hot meals free of charge to those in need on the streets, but the food trucks will also be serving the general public
-		at events all over the country. Which in turn also goes back to Homeless for necessary restocks of supplies and food for emergency aid in natural disaster
-		areas. These are our short term goals for the nearest future. With Gods blessings and your generious token and donation purchases. God will grant us these
-		much needed blessings. From the founder and CEO of Homeless, Jason Cook I thank you and God Bless.
-				Homeless Coin was born from a simple, painful reality: too many people fall through the cracks, and the world moves on like nothing happened. 
-	 	This coin exists to make sure those people are never ignored again.	Every Homeless Coin carries the weight of someone’s cold night, someone’s 
-		empty stomach, someone’s quiet prayer that tomorrow might hurt less than today. It carries the story of the veteran sleeping under a bridge, the 
-		single parent holding a child close to stay warm, the teenager pretending they’re (just out walking), because admitting they have no place to go. 
-		Is too heavy to say out loud. This token fights for them.	Homeless Coin is a promise. A promise that someone out there still cares. 
-		That someone sees them. That someone believes they deserve more than survival. It turns compassion into fuel, and fuel into real help: 
-		blankets, shelter, food, protection, a moment of peace in a life that hasn’t had any in too long.
-				When you hold Homeless Coin, you’re carrying the stories of people who never had anyone carry anything for them. You’re giving hope to 
-		someone who hasn’t felt hopeful in years. You’re part of the moment when a stranger goes from invisible, to seen. And maybe… just maybe… you help 
-		someone believe that life can start over." 
-
-conditions="There will only ever be 333,000,000,000 HCC in existence."
-conditions="HCC Coin is not backed by a physical asset or precious metal"
-conditions="HCC Coin value is only attached to the trust provided by the network's users and the loyal, loving, Homeless commuity that supports the cause."
-image="https://www.github.io/#1homelesscoin.logo.png"
-fixed_number="333,000,000,000"
+display_decimals = 7
+name = "Homeless"
+desc = """
+Homeless Coin isn’t about crypto. It’s about humanity. Supporting homeless initiatives and community outreach programs.
+We plan to allocate funds to headquarters, mobile food trucks, emergency aid, and local programs. Expand this text on your website as needed.
+"""
+conditions = """
+There will only ever be 333000000000 HCC in existence.
+HCC is not backed by a physical asset or precious metal.
+HCC value is based on the trust provided by the community that supports the cause.
+"""
+image = "https://homeless-hcc.github.io/assets/homeless-logo.png"
+fixed_number = 333000000000
