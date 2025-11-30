@@ -52,7 +52,6 @@ verification_photo_hash = ""
 # Consider using a short ticker like "HCC" for the code; I left "Homeless" as you provided
 code = "Homeless"
 issuer = "GDKSAFCZI3U4SIZAFGY2QWTOC7DFZJGDGSBC6VLSPFYLOII24W6KFUNS"
-home_domain = "homeless-hcc.github.io,GDKSAFCZI3U4SIZAFGY2QWTOC7DFZJGDGSBC6VLSPFYLOII24W6KFUNS" 
 is_asset_anchored = false
 anchor_asset_type = "crypto"
 is_unlimited = false
