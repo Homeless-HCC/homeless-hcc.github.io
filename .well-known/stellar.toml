@@ -1,6 +1,4 @@
-# Minimal stellar.toml for the Homeless token
-
-# Minimal / corrected stellar.toml for Homeless token
+# stellar.toml for the Homeless token (Homeless Coin / HCC)
 VERSION = "2.0.0"
 
 NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
@@ -15,12 +13,10 @@ ACCOUNTS = [
 
 [DOCUMENTATION]
 ORG_NAME = "Homeless"
-ORG_DBA = "Organization DBA"
+ORG_DBA = "Homeless Coin"
 ORG_URL = "https://homeless-hcc.github.io"
-# Upload your logo to /assets/homeless-logo.png in the repo and use that URL
 ORG_LOGO = "https://homeless-hcc.github.io/assets/1homelesscoin-logo.png"
 ORG_PHYSICAL_ADDRESS = "Prattville, Alabama 36066, USA"
-# If you don't have an attestation, leave empty string
 ORG_OFFICIAL_EMAIL = "homelesscoin2025@gmail.com"
 ORG_SUPPORT_EMAIL = "homelesscoin2025@gmail.com"
 ORG_PHONE_NUMBER = "+12982634786"
@@ -28,7 +24,6 @@ ORG_GITHUB = "https://github.com/Homeless-HCC"
 ORG_KEYBASE = ""
 ORG_TWITTER = ""
 
-# Long description: use triple-quoted string
 ORG_DESCRIPTION = """
 Supporting homeless initiatives and community outreach programs.
 Homeless Coin was born from a simple, painful reality: too many people fall through the cracks, and the world moves on like nothing happened.
@@ -47,9 +42,7 @@ github = "https://github.com/Homeless-HCC"
 id_photo_hash = ""
 verification_photo_hash = ""
 
-# Asset metadata
 [[CURRENCIES]]
-# Consider using a short ticker like "HCC" for the code; left as provided
 code = "Homeless"
 issuer = "GDKSAFCZI3U4SIZAFGY2QWTOC7DFZJGDGSBC6VLSPFYLOII24W6KFUNS"
 is_asset_anchored = false
