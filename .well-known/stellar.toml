@@ -5,7 +5,7 @@ VERSION = "2.0.0"
 
 NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
 SIGNING_KEY = "GDKSAFCZI3U4SIZAFGY2QWTOC7DFZJGDGSBC6VLSPFYLOII24W6KFUNS"
-HORIZON_URL = "https://horizon.stellar.org/homeless.hcc.github.io"
+HORIZON_URL = "https://horizon.stellar.org"
 
 # List related accounts (issuer, distribution)
 ACCOUNTS = [
@@ -24,16 +24,16 @@ ORG_PHYSICAL_ADDRESS = "Prattville, Alabama 36066, USA"
 ORG_OFFICIAL_EMAIL = "homelesscoin2025@gmail.com"
 ORG_SUPPORT_EMAIL = "homelesscoin2025@gmail.com"
 ORG_PHONE_NUMBER = "+12982634786"
-ORG_GITHUB = "https://github.com/Homeless-HCC/homeless-hcc.github.io"
+ORG_GITHUB = "https://github.com/Homeless-HCC"
 ORG_KEYBASE = ""
-ORG_TWITTER = "orgtweet"
+ORG_TWITTER = ""
 
 # Long description: use triple-quoted string
 ORG_DESCRIPTION = """
 Supporting homeless initiatives and community outreach programs.
 Homeless Coin was born from a simple, painful reality: too many people fall through the cracks, and the world moves on like nothing happened.
 This coin exists to make sure those people are never ignored again. Every Homeless Coin carries the weight of someone’s cold night,
-someone’s empty stomach, someone’s quiet prayer that tomorrow might hurt less than today. It carries the story of the veteran sleeping under a bridge,
+some’s empty stomach, someone’s quiet prayer that tomorrow might hurt less than today. It carries the story of the veteran sleeping under a bridge,
 the single parent holding a child close to stay warm, the teenager pretending they’re “just out walking” because admitting they have no place to go is too heavy to say out loud.
 This token fights for them. Homeless Coin is a promise that someone out there still cares. It turns compassion into fuel, and fuel into real help:
 blankets, shelter, food, protection, a moment of peace in a life that hasn’t had any in too long.
@@ -43,13 +43,13 @@ blankets, shelter, food, protection, a moment of peace in a life that hasn’t h
 name = "Jason Matthew Cook"
 email = "homelesscoin2025@gmail.com"
 keybase = ""
-github = "github.com/Homeless-HCC/homeless-hcc.github.io"
+github = "https://github.com/Homeless-HCC"
 id_photo_hash = ""
 verification_photo_hash = ""
 
 # Asset metadata
 [[CURRENCIES]]
-# Consider using a short ticker like "HCC" for the code; I left "Homeless" as you provided
+# Consider using a short ticker like "HCC" for the code; left as provided
 code = "Homeless"
 issuer = "GDKSAFCZI3U4SIZAFGY2QWTOC7DFZJGDGSBC6VLSPFYLOII24W6KFUNS"
 is_asset_anchored = false
