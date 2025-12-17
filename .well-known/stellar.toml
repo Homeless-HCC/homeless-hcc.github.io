@@ -16,7 +16,7 @@ ACCOUNTS = [
 [DOCUMENTATION]
 ORG_NAME = "Homeless"
 ORG_DBA = "Organization DBA"
-ORG_URL = "https://homeless-hcc.github.io/assets/1homelesscoin-logo.png"
+ORG_URL = "https://homeless-hcc.github.io"
 # Upload your logo to /assets/homeless-logo.png in the repo and use that URL
 ORG_LOGO = "https://homeless-hcc.github.io/assets/1homelesscoin-logo.png"
 ORG_PHYSICAL_ADDRESS = "Prattville, Alabama 36066, USA"
