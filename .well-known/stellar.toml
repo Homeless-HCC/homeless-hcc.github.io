@@ -19,7 +19,7 @@ ORG_LOGO = "https://homeless-hcc.github.io/assets/1homelesscoin-logo.png"
 ORG_PHYSICAL_ADDRESS = "Prattville, Alabama 36066, USA"
 ORG_OFFICIAL_EMAIL = "homelesscoin2025@gmail.com"
 ORG_SUPPORT_EMAIL = "homelesscoin2025@gmail.com"
-ORG_PHONE_NUMBER = "+12982634786"
+ORG_PHONE_NUMBER = "+12282634786"
 ORG_GITHUB = "https://github.com/Homeless-HCC"
 ORG_KEYBASE = ""
 ORG_TWITTER = ""
@@ -28,7 +28,7 @@ ORG_DESCRIPTION = """
 Supporting homeless initiatives and community outreach programs.
 Homeless Coin was born from a simple, painful reality: too many people fall through the cracks, and the world moves on like nothing happened.
 This coin exists to make sure those people are never ignored again. Every Homeless Coin carries the weight of someone’s cold night,
-some’s empty stomach, someone’s quiet prayer that tomorrow might hurt less than today. It carries the story of the veteran sleeping under a bridge,
+someone’s empty stomach, someone’s quiet prayer that tomorrow might hurt less than today. It carries the story of the veteran sleeping under a bridge,
 the single parent holding a child close to stay warm, the teenager pretending they’re “just out walking” because admitting they have no place to go is too heavy to say out loud.
 This token fights for them. Homeless Coin is a promise that someone out there still cares. It turns compassion into fuel, and fuel into real help:
 blankets, shelter, food, protection, a moment of peace in a life that hasn’t had any in too long.
@@ -53,12 +53,12 @@ display_decimals = 7
 name = "Homeless"
 desc = """
 Homeless Coin isn’t about crypto. It’s about humanity. Supporting homeless initiatives and community outreach programs.
-We plan to allocate funds to headquarters, mobile food trucks, emergency aid, and local programs. Expand this text on your website as needed.
+We plan to allocate funds to headquarters, mobile food trucks, emergency aid, and local programs.
 """
 conditions = """
-There will only ever be 333000000000 HCC in existence.
+There will only ever be 333000000000 Homeless Coin in existence.
 HCC is not backed by a physical asset or precious metal.
-HCC value is based on the trust provided by the community that supports the cause.
+Homeless value is based on the trust provided by the community that supports the cause.
 """
 image = "https://homeless-hcc.github.io/assets/1homelesscoin-logo.png"
 fixed_number = 333000000000
